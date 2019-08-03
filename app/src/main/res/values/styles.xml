@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Azul</item>
+        <item name="colorPrimaryDark">@color/AzulOscuro</item>
+        <item name="colorAccent">@color/Azul</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="title" parent="parent">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/Blanco</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="subTitle" parent="parent">
+        <item name="android:textColor">@color/Blanco</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="editText" parent="parent">
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@color/Blanco</item>
+        <item name="android:textColorHint">@color/BlancoClaro</item>
+        <item name="android:backgroundTint">@color/BlancoClaro</item>
+    </style>
+
+    <style name="editTextCont" parent="parent">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="boton" parent="parent">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/Blanco</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+</resources>

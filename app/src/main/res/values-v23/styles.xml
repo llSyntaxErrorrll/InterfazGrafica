@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="editText" parent="parent">
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@color/Blanco</item>
+        <item name="android:textColorHint">@color/Blanco</item>
+        <item name="android:backgroundTint">@color/BlancoClaro</item>
+        <item name="android:drawableTint">@color/Blanco</item>
+    </style>
+</resources>

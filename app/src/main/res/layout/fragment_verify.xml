@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:context=".ui.main.Verify">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/img"
+            android:layout_gravity="center"/>
+
+        <TextView
+            style="@style/subTitle"
+            android:text="Appointment Confirm!"
+            android:textColor="@color/AzulOscuro"
+            android:textStyle="bold"/>
+
+        <TextView
+            style="@style/subTitle"
+            android:text="You Appointment with Dr John Smith on March at 2:30 in confirm!"
+            android:textColor="@color/Negro"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            style="@style/subTitle"
+            android:text="Time left before appointment!"
+            android:textColor="@color/Negro" />
+
+        <TextView
+            style="@style/subTitle"
+            android:text="2 days 5 hours"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/Negro"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            style="@style/subTitle"
+            android:text="Book a videophysical appointment"
+            android:textColor="@color/Negro"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/sinActividad"
+            style="@style/boton"
+            android:background="@drawable/degradado_action_bar_h"
+            android:text="Yes start Booking" />
+
+
+        <TextView
+            style="@style/subTitle"
+            android:text="No tanks! Take me to 'My Appointment'"
+            android:textColor="@color/Negro"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+</RelativeLayout>

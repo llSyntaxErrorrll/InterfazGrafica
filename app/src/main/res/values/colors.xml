@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FFF</color>
+
+    <color name="azulBackOscuro">#366AB5</color>
+    <color name="azulBack">#3372DD</color>
+    <color name="verdeBack">#34C88C</color>
+    <color name="azulVerdosoBack">#3EB0C9</color>
+
+    <color name="verdeBackTab">#05B9F2</color>
+    <color name="verdeBackTabHover">#03B5E6</color>
+
+    <!-- colores basicos -->
+    <color name="Blanco">#FFFFFF</color>
+    <color name="BlancoClaro">#FAFAFA</color>
+    <color name="BlancoOsucro">#F1F1F1</color>
+
+    <color name="Azul">#1e88e5</color>
+    <color name="AzulOscuro">#005cb2</color>
+
+    <color name="Negro">#202020</color>
+    <color name="NegroOscuro">#000000</color>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado_action_bar"
+    tools:context=".Main">
+
+    <ScrollView
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <TextView
+                style="@style/title"
+                android:textSize="70dp"
+                android:text="MD" />
+
+            <TextView
+                style="@style/title"
+                android:text="MAPLEDOC" />
+
+            <LinearLayout style="@style/editTextCont">
+
+                <EditText
+                    style="@style/editText"
+                    android:drawableStart="@drawable/ic_person"
+                    android:hint="Username"/>
+
+                <EditText
+                    style="@style/editText"
+                    android:drawableStart="@drawable/ic_lock"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/main_login"
+                style="@style/boton"
+                android:background="@drawable/degradado_boton"
+                android:text="Sing In" />
+
+            <TextView
+                style="@style/subTitle"
+                android:text="Forgot Password" />
+
+            <Button
+                style="@style/boton"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/degradado_boton_dos"
+                android:text="Login via Facebook" />
+
+            <RelativeLayout style="@style/parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true">
+
+                    <TextView
+                        style="@style/subTitle"
+                        android:layout_width="wrap_content"
+                        android:text="Dont have a account? " />
+
+                    <TextView
+                        style="@style/subTitle"
+                        android:layout_width="wrap_content"
+                        android:text=" Sing Up"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
